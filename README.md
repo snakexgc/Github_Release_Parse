@@ -8,8 +8,10 @@
 1. 访问网站: [https://github.20010101.xyz/](https://github.20010101.xyz/)
 2. 输入你要下载Release的github仓库地址，并勾选 **是否使用加速？**
 3. 点击开始解析
+
 ![image](https://github.com/snakexgc/Github_Release_Parse/assets/78722169/40bf683e-89fe-41fc-a703-15a9b13911d0)
 然后你就会得到如下界面
+
 ![image](https://github.com/snakexgc/Github_Release_Parse/assets/78722169/235d03f4-3027-4f9b-bb3b-ea678ecf4678)
 点击你需要的版本即可下载
 
