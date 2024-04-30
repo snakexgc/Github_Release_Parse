@@ -18,7 +18,7 @@
 点击你需要的版本即可下载
 
 # 自行部署
-一共就两个文件，你只需要在一个有PHP环境的服务器上创建一个网页，将这连个文件放入即可，index.html是主网页，parse_github.php文件是逻辑处理的。
+一共就两个文件，你只需要在一个有PHP环境的服务器上创建一个网页，将这两个文件放入即可，index.html是主网页，parse_github.php文件是逻辑处理的。
 
 # 关于加速
 加速站是我自建在Cloudflare Workers上的Github加速站点 
