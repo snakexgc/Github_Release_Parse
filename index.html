@@ -14,15 +14,18 @@
             padding: 0;
             background-color: #f8f9fa;
         }
-        .container {
+        .container, .suggestions {
             text-align: center;
-        }
-        form {
-            display: inline-block;
             padding: 20px;
             border: 2px solid #007bff;
             border-radius: 10px;
             background-color: #fff;
+        }
+        .container {
+            margin-right: 20px; /* Added some space between the form and suggestions */
+        }
+        form {
+            display: inline-block;
         }
         label {
             font-weight: bold;
@@ -50,6 +53,22 @@
         button:hover {
             background-color: #0056b3;
         }
+        .suggestions ul {
+            list-style: none;
+            padding: 0;
+        }
+        .suggestions ul li {
+            cursor: pointer;
+            color: #007bff;
+            text-decoration: underline;
+        }
+        .suggestions ul li:hover {
+            color: #0056b3;
+        }
+        .suggestions ul li span {
+            color: #333; /* Less emphasis on the comment */
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -63,5 +82,38 @@
             <button type="submit">开始解析</button>
         </form>
     </div>
+    <div class="suggestions">
+        <h2>推荐项目</h2>
+        <ul id="suggestions-list"></ul>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            fetch('suggestions.txt')
+                .then(response => response.text())
+                .then(data => {
+                    const lines = data.split('\n');
+                    const suggestionsList = document.getElementById('suggestions-list');
+                    lines.forEach(line => {
+                        if (line.trim()) {
+                            const splitIndex = line.indexOf('#');
+                            const url = (splitIndex > -1) ? line.substring(0, splitIndex).trim() : line.trim();
+                            const comment = (splitIndex > -1) ? line.substring(splitIndex + 1).trim() : '';
+
+                            const li = document.createElement('li');
+                            li.textContent = url;
+                            li.onclick = function () {
+                                document.getElementById('github_url').value = url;
+                            };
+                            if (comment) {
+                                const span = document.createElement('span');
+                                span.textContent = " - " + comment;
+                                li.appendChild(span);
+                            }
+                            suggestionsList.appendChild(li);
+                        }
+                    });
+                });
+        });
+    </script>
 </body>
 </html>
