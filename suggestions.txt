@@ -1,0 +1,16 @@
+https://github.com/zbezj/HEU_KMS_Activator #Window/Office激活工具
+https://github.com/vosen/ZLUDA #CUDA on AMD GPUs
+https://github.com/YaoFANGUK/video-subtitle-remover #AI图片视频去水印
+https://github.com/GoodCoder666/GoogleTranslate_IPFinder #谷歌翻译Host修改
+https://github.com/gkd-kit/gkd #跳过开屏广告
+https://github.com/studyzy/imewlconverter #深蓝词库转换
+https://github.com/hiroi-sora/Umi-OCR #离线OCR
+https://github.com/huiyadanli/RevokeMsgPatcher #QQ/微信防撤回
+https://github.com/BtbN/FFmpeg-Builds #FFmpeg
+https://github.com/LibNyanpasu/clash-nyanpasu #冲突(不是)
+https://github.com/XTLS/Xray-core #X射线核心(不是)
+https://github.com/2dust/v2rayNG #安卓第二代射线(不是)
+https://github.com/2dust/v2rayN #Window第二代射线(不是)
+https://github.com/SagerNet/sing-box #唱歌盒子(不是)
+https://github.com/MatsuriDayo/nekoray #猫射线(不是)
+https://github.com/hiddify/hiddify-next #隐藏-下一个(不是)
