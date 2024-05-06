@@ -1,5 +1,6 @@
 # Github_Release_Parse
-![image](https://github.com/snakexgc/Github_Release_Parse/assets/78722169/25a5f739-940b-4165-8ccf-33fd6b62d719)
+![image](https://github.com/snakexgc/Github_Release_Parse/assets/78722169/9db65fa3-b1ae-4e54-b87f-bdde7775da3e)
+
 
 # 项目介绍
 本项目存在的意义是方便一部分 **不会魔法上网，但是又有从github项目的Release下载文件的需求** 的用户，你只需要知道该项目的完整地址，将链接粘贴到输入框，勾选使用加速，你就能获取到该项目的最新的latest标签和Pre-release标签下面的包含加速的下载链接，点击链接即可加速下载。
@@ -7,6 +8,7 @@
 # 如何使用？
 1. 访问网站: [https://github.20010101.xyz/](https://github.20010101.xyz/)
 2. 输入你要下载Release的github仓库地址，并勾选 **是否使用加速？**
+   你现在也可以从右侧的推荐项目栏直接点击。
 3. 点击开始解析
 
 ![image](https://github.com/snakexgc/Github_Release_Parse/assets/78722169/40bf683e-89fe-41fc-a703-15a9b13911d0) 
