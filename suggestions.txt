@@ -7,6 +7,7 @@ https://github.com/studyzy/imewlconverter #深蓝词库转换
 https://github.com/hiroi-sora/Umi-OCR #离线OCR
 https://github.com/huiyadanli/RevokeMsgPatcher #QQ/微信防撤回
 https://github.com/BtbN/FFmpeg-Builds #FFmpeg
+https://github.com/fatedier/frp #内外穿透
 https://github.com/LibNyanpasu/clash-nyanpasu #冲突(不是)
 https://github.com/XTLS/Xray-core #X射线核心(不是)
 https://github.com/2dust/v2rayNG #安卓第二代射线(不是)
