@@ -18,3 +18,4 @@ https://github.com/SagerNet/sing-box #sing-box
 https://github.com/MatsuriDayo/nekoray #nekoray
 https://github.com/hiddify/hiddify-next #hiddify-next
 https://github.com/RikkaApps/Shizuku #Shizuku
+https://github.com/peazip/PeaZip #Peazip一款替代7zip的开源解压软件
